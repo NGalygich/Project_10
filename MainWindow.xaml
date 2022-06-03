@@ -41,8 +41,9 @@
         Grid.Row="1"
         Margin="5"
         Background="Gainsboro"
-        Grid.RowSpan="3">
-            <TextBlock x:Name="textBlock1"/>
+        Grid.RowSpan="3"
+        Name="ListView1">
+            <ListViewItem Content="Coffie"></ListViewItem> 
         </ListView>
 
         <TextBlock 

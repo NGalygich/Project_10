@@ -25,10 +25,12 @@ namespace Project_10
         {
             InitializeComponent();
             Project_9.Program.Main();
-            TextBlock textBlock1 = new TextBlock();
-            foreach (string el in Project_9.Program.messageList){
-                textBlock1.Text = el;
-            }
+            var telBot = new Project_9.Program();
+            //telegramBot.Main();
+            ListView ListView1 = new ListView();
+            //TextBlock textBlock1 = new TextBlock();
+            //Console.WriteLine(Project_9.Program.messageList);
+            //ListView1.Items.Add(telBot.);
             //string message1 = Project_9.Program.messageList;
         }
     }
